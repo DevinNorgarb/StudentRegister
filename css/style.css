@@ -1,0 +1,51 @@
+/*
+table {
+  border-collapse: collapse;
+}
+table td {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+table td:nth-child(2n+2) {
+  width: 200px;
+}
+table td:last-child {
+  width: 100px;
+}
+table tr {
+  height: 80px;
+  display: block;
+  overflow: auto;
+  background-color: white;
+  border: 2px solid #ccc;
+}
+*/
+/*
+table td
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: auto;
+}*/
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
